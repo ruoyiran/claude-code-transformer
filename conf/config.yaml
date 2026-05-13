@@ -1,0 +1,13 @@
+server_port: 7777
+server_addr: "0.0.0.0"
+base_path: ""
+
+openai_base_url: "https://your-openai-compatible-upstream.example.com"
+
+log:
+  filename: "./logs/server.log"
+  max_size: 100 # megabytes
+  max_backups: 10
+  max_age: 7 # days
+  compress: true
+  level: "info"
